@@ -103,9 +103,3 @@ Do not fabricate screenshots; capture them after running the project in your AWS
 - Static website hosting configuration
 - IAM least privilege and public-access risks
 - Repeatable deployment scripts
-
-## Cleanup
-Delete the test bucket only after confirming it contains no needed data. First remove objects, then delete the bucket. Review AWS pricing and account policies before creating resources.
-
-## GitHub upload
-Commit this project folder and its README to your own repository. Add screenshots you captured to a `screenshots/` folder and link them here. Never commit AWS credentials.
